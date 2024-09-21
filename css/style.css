@@ -445,7 +445,7 @@ p a:hover {
     width: 44px;
 }
 
-#footer div ul li a {
+/* #footer div ul li a {
     background: url(../images/icons.jpg) no-repeat 0 0;
     display: block;
     height: 44px;
@@ -453,10 +453,17 @@ p a:hover {
     padding: 0;
     text-indent: -99999px;
     width: 44px;
-}
+} */
 
 #footer div ul li #twitter {
     background-position: 0 0;
+    background: url(../images/icons-tw.jpg) no-repeat 0 0;
+    display: block;
+    height: 44px;
+    width: 44px;
+    margin: 0;
+    padding: 0;
+    text-indent: -99999px;
 }
 
 #footer div ul li #twitter:hover {
@@ -465,24 +472,38 @@ p a:hover {
 
 #footer div ul li #facebook {
     background-position: 0 -44px;
+    background: url(../images/icons-fb.jpg) no-repeat 0 0;
+    display: block;
+    height: 44px;
+    width: 44px;
+    margin: 0;
+    padding: 0;
+    text-indent: -99999px;
 }
 
 #footer div ul li #facebook:hover {
     background-position: -44px -44px;
 }
 
-#footer div ul li #googleplus {
+#footer div ul li #instagram {
     background-position: 0 -88px;
+    background: url(../images/icons-inst.jpg) no-repeat 0 0;
+    display: block;
+    height: 44px;
+    width: 44px;
+    margin: 0;
+    padding: 0;
+    text-indent: -99999px;
 }
 
-#footer div ul li #googleplus:hover {
+#footer div ul li #instagram:hover {
     background-position: -44px -88px;
 }
 
-#footer div ul li #instagram {
+/* #footer div ul li #instagram {
     background-position: 0 -132px;
 }
 
 #footer div ul li #instagram:hover {
     background-position: -44px -132px;
-}
+} */
