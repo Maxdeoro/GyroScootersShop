@@ -500,10 +500,34 @@ p a:hover {
     background-position: -44px -88px;
 }
 
-/* #footer div ul li #instagram {
-    background-position: 0 -132px;
+/* styles for tooltips */
+#tt {
+    position: absolute;
+    display: block;
+    padding: 10px;
+    border: 1px solid #089dcb;
+    border-radius: 10px 10px 10px 0px;
+    background-color: #ffD;
+    box-shadow: 1px 1px 2px #888888;
+    -webkit-border-radius:lOpx lOpx lOpx Орх; 
+    -moz-border-radius: 10px 10px 10px 0px;
+    -webkit-box-shadow: 1px 1px 2px #888888;
+    -moz-box-shadow: 1px 1px 2px #888888;
 }
 
-#footer div ul li #instagram:hover {
-    background-position: -44px -132px;
-} */
+.hlpl {
+    color: #000;
+    border: 1px solid #9fbddd;
+    background-color: #E7F5FE;
+    cursor: help;
+    margin-left: 5px;
+    line-height: 14px;
+    width: 12px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    font-weight: 100;
+    text-indent: 0;
+}
