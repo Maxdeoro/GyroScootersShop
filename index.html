@@ -12,7 +12,61 @@
 <body>
     <div id="header">
         <h1>Giroscooters for all!</h1>
-        <ul id="navigation">
+        <div class="menu">
+            <!-- First level menu -->
+            <table>
+                <tr>
+                    <td>
+                        <a href="#" onmouseout="document.getElementById('menu1')
+                        .style.display='none';"
+                        onmouseover="document.getElementById('menu1').style
+                        .display='block';">Main page</a>
+                    </td>
+                    <td>
+                        <a href="#" onmouseout="document.getElementById('menu2')
+                        .style.display='none';"
+                        onmouseover="document.getElementById('menu2').style
+                        .display='block';">Shipping & Payment</a>
+                    </td>
+                    <td>
+                        <a href="#" onmouseout="document.getElementById('menu3')
+                        .style.display='none';"
+                        onmouseover="document.getElementById('menu3').style
+                        .display='block';">Catalog</a>
+                    </td>
+                    <td>
+                        <a href="#" onmouseout="document.getElementById('menu4')
+                        .style.display='none';"
+                        onmouseover="document.getElementById('menu4').style
+                        .display='block';">Contacts</a>
+                    </td>
+                </tr>
+            </table>
+            <!-- Second level menu -->
+            <table class="ids" id="menu1" onmouseout="this.style.display='none';" 
+             onmouseover="this.style.display='block';">
+               <tr><td><a href="#">My profile</a></td></tr>
+               <tr><td><a href="#">My orders</a></td></tr>
+               <tr><td><a href="#">Cart</a></td></tr>
+            </table>
+            <table class="ids" id="menu2" onmouseout="this.style.display='none';" 
+             onmouseover="this.style.display='block';">
+               <tr><td><a href="#">Payment methods</a></td></tr>
+               <tr><td><a href="#">Shipping methods</a></td></tr>
+               <tr><td><a href="#">Guarantee</a></td></tr>
+            </table>
+            <table class="ids" id="menu3" onmouseout="this.style.display='none';" 
+             onmouseover="this.style.display='block';">
+               <tr><td><a href="#">For adults</a></td></tr>
+               <tr><td><a href="#">For kids</a></td></tr>
+            </table>
+            <table class="ids" id="menu4" onmouseout="this.style.display='none';" 
+             onmouseover="this.style.display='block';">
+               <tr><td><a href="#">Address & Map</a></td></tr>
+               <tr><td><a href="#">Feedbacks</a></td></tr>
+            </table>
+        </div>
+        <!-- <ul id="navigation">
             <li class="selected">
                 <a href="index.html">Main page</a>
             </li>
@@ -25,7 +79,7 @@
             <li>
                 <a href="contact.html">Contacts</a>
             </li>
-        </ul>
+        </ul> -->
     </div>
     <div id="body">
         <div id="featured">
