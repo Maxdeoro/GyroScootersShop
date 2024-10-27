@@ -72,10 +72,10 @@ p a:hover {
     display: block;
 }
 
-#header ul {
+/* #header ul {
     margin: 0;
     padding: 56px 0 0;
-}
+} */
 
 #header ul li {
     display: inline;
@@ -530,4 +530,8 @@ p a:hover {
     -moz-border-radius: 4px;
     font-weight: 100;
     text-indent: 0;
+}
+
+.menu-tab {
+    width: 180px;
 }

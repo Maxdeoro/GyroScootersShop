@@ -8,24 +8,47 @@
        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="jquerynav/jQueryNav.css">
 </head>
 <body>
     <div id="header">
         <h1>Giroscooters for all!</h1>
-        <ul id="navigation">
-            <li class="selected">
-                <a href="index.html">Main page</a>
-            </li>
-            <li>
-                <a href="about.html">Shipping & Payment</a>
-            </li>
-            <li>
-                <a href="gallery.html">Catalog</a>
-            </li>
-            <li>
-                <a href="contact.html">Contacts</a>
-            </li>
-        </ul>
+
+        <!-- jQueryNav menu -->
+         <nav class="jquerynav-wrapper">
+            <ul class="jquerynav clearfix">
+                <li>
+                    <a href="#" class="menu-tab">Main page</a>
+                    <ul>
+                        <li><a href="#">My profile</a></li>
+                        <li><a href="#">My orders</a></li>
+                        <li><a href="#">Cart</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="menu-tab">Shipping & Payment</a>
+                    <ul>
+                        <li><a href="#">Payment methods</a></li>
+                        <li><a href="#">Shipping methods</a></li>
+                        <li><a href="#">Guarantee</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="menu-tab">Catalog</a>
+                    <ul>
+                        <li><a href="#">For adults</a></li>
+                        <li><a href="#">For kids</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="menu-tab">Contacts</a>
+                    <ul>
+                        <li><a href="#">Address & Map</a></li>
+                        <li><a href="#">Feedbacks</a></li>
+                    </ul>
+                </li>
+            </ul>
+         </nav>
     </div>
     <div id="body">
         <div id="featured">
@@ -69,9 +92,6 @@
                 <li>
                     <a href="" id="facebook">Facebook</a>
                 </li>
-                <!-- <li>
-                    <a href="" id="googleplus">Googleplus</a>
-                </li> -->
                 <li>
                     <a href="" id="instagram">Instagram</a>
                 </li>
@@ -87,5 +107,11 @@
        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" 
        crossorigin="anonymous"></script>
     <script src="myTip.js"></script>
+    <script type="text/javascript" src="jquerynav/js/jQueryNav.js"></script>
+    <script src="menu.js">
+	    // (function($){
+	    // $('.jquerynav').jQueryNav();
+	    // })(jQuery);
+    </script>
 </body>
 </html>
