@@ -1,6 +1,3 @@
-// function addToFavorites() {
-//     window.external.addFavorite();
-// };
 $(function() {
     $('#bookmarkme').click(function() {
       if (window.sidebar && window.sidebar.addPanel) { // Mozilla Firefox Bookmark
@@ -15,3 +12,11 @@ $(function() {
       }
     });
   });
+  
+// only work in IE
+  function setAsHomePage(obj) {
+    obj.style.behavior = 'url(#default#homepage)'; 
+    obj.setHomePage('http://example.com');
+    window.alert('Thank you!');
+    return false;
+  };

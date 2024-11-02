@@ -535,3 +535,10 @@ p a:hover {
 .menu-tab {
     width: 180px;
 }
+
+.hpage {
+    border: 2px solid sienna;
+    border-radius: 4px;
+    margin-top: 5px;
+    padding: 3px;
+}
