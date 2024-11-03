@@ -13,10 +13,3 @@ $(function() {
     });
   });
   
-// only work in IE
-  function setAsHomePage(obj) {
-    obj.style.behavior = 'url(#default#homepage)'; 
-    obj.setHomePage('http://example.com');
-    window.alert('Thank you!');
-    return false;
-  };
