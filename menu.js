@@ -1,3 +1,0 @@
-(function($){
-    $('.jquerynav').jQueryNav();
-})(jQuery);

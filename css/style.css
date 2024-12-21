@@ -637,3 +637,7 @@ p a:hover {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+#img_div {
+    border: 1px solid #9fbddd;
+}
