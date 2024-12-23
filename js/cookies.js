@@ -25,14 +25,14 @@ function parseCookie() {
 
 // visits counter with date
 function setCookie(visits) {
-    const expireDate = new Date();
+    let expireDate = new Date();
     const today = new Date();
     // set date of expire
     expireDate.setDate(365 + expireDate.getDate());
     // save number of visits
     document.cookie = 'visits = ' + visits + '; expires = ' + expireDate.toGMTString() + ';';
     // save actual date
-    document.cookie = 'Last visit = ' + escape(today.toGMTString()) + "; expires = " + expireDate.toGMTString() + ",";
+    document.cookie = 'LastVisit = ' + escape(today.toGMTString()) + "; expires = " + expireDate.toGMTString() + ",";
 };
 
 if('' == document.cookie) {
@@ -47,7 +47,7 @@ if('' == document.cookie) {
     document.write("<div align='right'><br><i>We glad to see you again! You visited us: " 
     + cookies.visits++ + " times </i></div>");
     // show date of last visit
-    document.write("<div align='right'><i>You visited us: " + cookies.LastVisit + ".</i></div>");
+    document.write("<div align='right'><i>Your last visit: " + cookies.today.LastVisit + ".</i></div>");
     // refresh cookie
     setCookie(isNaN(cookies.visits) ? 1 : cookies.visits);
 }
